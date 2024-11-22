@@ -1,0 +1,42 @@
+.header{
+    padding: 0 90px;
+    letter-spacing: 0.75px;
+}
+.header_search_bar{
+    width: 529px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    border-radius: 8px;
+    background-color: gray;
+    padding: 15px;
+}
+.header_header{
+    display: flex;
+    padding: 40px 0;
+}
+.header_footer{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 25px;
+}
+.header_login{
+    margin: 0 20px;
+}
+.header_button{
+    width: 114px;
+    height: 40px;
+    letter-spacing: inherit;
+    border-radius: 8px;
+    background-color: #c92071;
+    border: none;
+    color: #ffff;
+}
+.header_carrinho{
+    margin: 0 80px;
+}
+.search_icon{
+    width: 20px;
+}
