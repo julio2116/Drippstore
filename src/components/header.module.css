@@ -1,20 +1,35 @@
 .header{
-    padding: 0 90px;
     letter-spacing: 0.75px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1342px;
+    justify-content: center;
+    margin: auto;
+    font-family: sans-serif;
+    padding-bottom: 25px;
 }
 .header_search_bar{
     width: 529px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 20px;
+    margin: 0 30px;
     border-radius: 8px;
-    background-color: gray;
+    background-color: rgb(245, 245, 245);
+    color: rgb(180, 180, 180);
     padding: 15px;
+}
+.header_search{
+    background-color: rgb(245, 245, 245);
+    color: rgb(180, 180, 180);
+    width: 509px;
+    border: none;
 }
 .header_header{
     display: flex;
-    padding: 40px 0;
+    padding: 40px 5px;
+    justify-content: center;
+    align-items: center;
 }
 .header_footer{
     display: flex;
@@ -23,7 +38,8 @@
     gap: 25px;
 }
 .header_login{
-    margin: 0 20px;
+    margin: 0 25px;
+    border-bottom: solid thin;
 }
 .header_button{
     width: 114px;
@@ -36,6 +52,7 @@
 }
 .header_carrinho{
     margin: 0 80px;
+    align-self: center;
 }
 .search_icon{
     width: 20px;
