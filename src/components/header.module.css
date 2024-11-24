@@ -19,13 +19,12 @@
     align-items: center;
     margin: 0 30px;
     border-radius: 8px;
-    background-color: rgb(245, 245, 245);
-    color: rgb(180, 180, 180);
+    background-color: #F5F5F5;
     padding: 15px;
 }
 .header_search{
     background-color: rgb(245, 245, 245);
-    color: rgb(180, 180, 180);
+    color: #474747;
     width: 509px;
     border: none;
 }
@@ -41,10 +40,19 @@
     list-style: none;
     gap: 25px;
     margin-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
 }
 .header_login{
     margin: 0 25px;
     border-bottom: solid thin;
+    color: #474747;
+}
+.header_search::-webkit-input-placeholder{
+    color: #474747;
 }
 .header_button{
     width: 114px;
@@ -61,4 +69,7 @@
 }
 .search_icon{
     width: 20px;
+}
+.header_link{
+    color: #474747;
 }

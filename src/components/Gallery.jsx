@@ -6,7 +6,7 @@ const Gallery = () => {
       <div className={styles.gallery_box}>
         <div className={styles.gallery_header}>
           <span className={styles.gallery_text}>
-            <span>Melhores Ofertas personalizadas</span>
+            <span className={styles.gallery_subtitulo}>Melhores Ofertas personalizadas</span>
             <h3 className={styles.gallery_titulo}>Queima de stoque Nike🔥</h3>
             <div className={styles.gallery_description}>
               Consequat culpa exercitation mollit nisi excepteur do do tempor
