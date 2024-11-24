@@ -1,0 +1,28 @@
+.gallery_text{
+    width: 495px;
+}
+.gallery_titulo{
+    width: 495px;
+}
+.text{
+    display: flex;
+    position: relative;
+    background-color: gray;
+    overflow: hidden;
+}
+.gallery_images{
+    display: flex;
+    position: inherit;
+    top: 0;
+    right: 100px;
+}
+.gallery_sapato{
+    width: 105%;
+}
+.gallery_ornament{
+    width: 17%;
+    align-self: flex-start;
+    position: inherit;
+    right: 85px;
+    top: 75px;
+}
