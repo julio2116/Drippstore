@@ -12,3 +12,6 @@ textarea:focus, input:focus, select:focus {
 a{
   text-decoration: none;
 }
+button{
+  cursor: pointer;
+}

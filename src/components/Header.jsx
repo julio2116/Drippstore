@@ -6,7 +6,7 @@ const Header = () => {
         <div className={styles.header}>
         <div className={styles.header_intern}>
             <div className={styles.header_header}>
-                <img src="src/assets/logo.svg" alt="" />
+                <img className={styles.header_logo} src="src/assets/logo.svg" alt="" />
                 <div className={styles.header_search_bar}>
                     <input className={styles.header_search} placeholder='Pesquisar produto...'></input>
                     <img className={styles.search_icon} src="src/assets/Search.svg" alt="" />
