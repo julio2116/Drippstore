@@ -7,7 +7,7 @@ const Gallery = () => {
         <div className={styles.gallery_header}>
           <span className={styles.gallery_text}>
             <span className={styles.gallery_subtitulo}>Melhores Ofertas personalizadas</span>
-            <h3 className={styles.gallery_titulo}>Queima de stoque Nike🔥</h3>
+            <h3 className={styles.gallery_titulo}>Queima de stoque Nike<img className={styles.gallery_img_fire} src="src/assets/chama.png"></img></h3>
             <div className={styles.gallery_description}>
               Consequat culpa exercitation mollit nisi excepteur do do tempor
               laboris eiusmod irure consectetur.
@@ -28,10 +28,10 @@ const Gallery = () => {
           </span>
         </div>
         <div className={styles.gallery_checkbox}>
-          <input type="radio" checked name="slide" value={"a"} />
-          <input type="radio" name="slide" value={"b"} />
-          <input type="radio" name="slide" value={"c"} />
-          <input type="radio" name="slide" value={"c"} />
+          <input className={styles.gallery_check} type="radio" name="slide" value={"a"} />
+          <input className={styles.gallery_check} type="radio" name="slide" value={"b"} />
+          <input className={styles.gallery_check} type="radio" name="slide" value={"c"} />
+          <input className={styles.gallery_check} type="radio" name="slide" value={"c"} />
         </div>
       </div>
     </>
