@@ -1,56 +1,60 @@
 .header{
     background-color: white;
+    max-width: 100%;
+    min-width: 100%;
 }
 .header_logo{
     cursor: pointer;
 }
 .header_intern{
-    letter-spacing: 0.75px;
+    letter-spacing: 0.047rem;
     display: flex;
     flex-direction: column;
-    max-width: 1342px;
+    max-width: 83.875rem;
+    min-width: 83.875rem;
     justify-content: center;
     margin: auto;
     font-family: sans-serif;
-    padding-bottom: 25px;
+    padding-bottom: 1.563rem;
     background-color: white;
 }
 .header_search_bar{
-    width: 529px;
+    width: 33.063rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 30px;
+    /* margin: 0 1.875rem; */
     border-radius: 8px;
     background-color: #F5F5F5;
-    padding: 15px;
+    padding: 0.938rem;
 }
 .header_search{
     background-color: rgb(245, 245, 245);
     color: #474747;
-    width: 509px;
+    width: 31.813rem;
     border: none;
 }
 .header_header{
     display: flex;
-    padding: 40px 0;
-    justify-content: center;
+    padding: 2.5rem 0.313rem;
+    justify-content: space-between;
     align-items: center;
+    max-width: 83.875rem;
+    min-width: 83.875rem;
 }
 .header_footer{
     display: flex;
     text-decoration: none;
     list-style: none;
-    gap: 25px;
-    margin-left: 40px;
+    gap: 1.563rem;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0.75px;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.047rem;
     color: #474747;
 }
 .header_login{
-    margin: 0 25px;
+    /* margin: 0 1.563rem; */
     border-bottom: solid thin;
     color: #474747;
     cursor: pointer;
@@ -59,8 +63,8 @@
     color: #474747;
 }
 .header_button{
-    width: 114px;
-    height: 40px;
+    width: 7.125rem;
+    height: 2.5rem;
     letter-spacing: inherit;
     border-radius: 8px;
     background-color: #c92071;
@@ -68,12 +72,12 @@
     color: #ffff;
 }
 .header_carrinho{
-    margin: 0 30px 0 60px;
+    margin-right: 3.75rem;
     align-self: center;
     cursor: pointer;
 }
 .search_icon{
-    width: 20px;
+    width: 1.25rem;
 }
 .header_link{
     color: #474747;

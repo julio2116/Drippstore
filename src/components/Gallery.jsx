@@ -33,12 +33,6 @@ const Gallery = (props) => {
             />
           </span>
         </div>
-        <div className={styles.gallery_checkbox}>
-          <input className={styles.gallery_check} type="radio" name="slide" value={"a"} />
-          <input className={styles.gallery_check} type="radio" name="slide" value={"b"} />
-          <input className={styles.gallery_check} type="radio" name="slide" value={"c"} />
-          <input className={styles.gallery_check} type="radio" name="slide" value={"c"} />
-        </div>
       </div>
     </>
   );
