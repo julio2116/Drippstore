@@ -1,0 +1,25 @@
+.carrossel_box{
+    display: flex;
+    min-width: 1342px;
+    max-width: 1342px;
+    justify-self: center;
+    overflow: hidden;
+    &:hover .carrossel_inner_box {
+        animation-play-state: paused;
+      }
+}
+@keyframes scrolling {
+    from, to { transform: translateX(0); }
+    100% { transform: translateX(-300%); }
+}
+.carrossel_inner_box{
+    display: flex;
+    min-width: 1342px;
+    max-width: 1342px;
+    justify-self: center;
+    > * {
+        flex: 0 0 100%;
+      }
+    will-change: transform;
+    animation: scrolling 20s linear infinite;
+}

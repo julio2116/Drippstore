@@ -1,6 +1,12 @@
 import styles from "../components/Gallery.module.css";
 
-const Gallery = () => {
+const Gallery = (props) => {
+  const hoverin ={
+    transform: `translateX(-${props.translate})`
+  }
+  const hoverout = {
+    transform: `translateX(${props.translate})`
+  }
   return (
     <>
       <div className={styles.gallery_box}>
