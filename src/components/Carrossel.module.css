@@ -1,9 +1,7 @@
 .carrossel_box{
     display: flex;
     position: relative;
-    min-width: 83.875rem;
-    max-width: 83.875rem;
-    justify-self: center;
+    max-width: 100%;
     overflow: hidden;
     &:hover .carrossel_inner_box {
         animation-play-state: paused;
@@ -15,8 +13,7 @@
 }
 .carrossel_inner_box{
     display: flex;
-    min-width: 83.875rem;
-    max-width: 83.875rem;
+    max-width: 100%;
     justify-self: center;
     > * {
         flex: 0 0 100%;
@@ -47,4 +44,8 @@ input[type="radio"]:checked {
 }
 .carrossel_center{
     display: grid;
+    max-width: 83.875rem;
+    position:relative;
+    transform: translate(-50%, 0);
+    left: 50%;
 }
